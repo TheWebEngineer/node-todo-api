@@ -36,7 +36,7 @@ describe('POST /todos', () => {
       .post('/todos')
       .send({})
       .expect(400)
-      .end((err, res) => {
+      .end((err, res) => { 
         if (err) {
           return done(err);
         }
@@ -46,5 +46,5 @@ describe('POST /todos', () => {
           done();
         }).catch((e) => done(e));
       });
-    }); 
+    });
   });
