@@ -1,3 +1,5 @@
+//Note: The UserID and ID variables in this file NEED TO BE UPDATED AFTER ANY TEST FILES ARE RUN as the tests
+//regen the _id property of the documents in the collection.
 const {ObjectID} = require('mongodb');
 
 const {mongoose} = require('./../server/db/mongoose');
